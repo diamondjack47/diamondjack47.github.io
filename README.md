@@ -5,6 +5,7 @@
 ## Automated NAS & Media Streaming Server
 ### Role: Systems Administrator | Tech Stack: Unraid, Networking, SMB, Tailscale VPN, Docker
 Repurposed a legacy Intel Core i5-3470 system into a high-speed network-attached storage (NAS) server running Unraid 7.1.2, integrating a dedicated Gigabit Ethernet card to maximize network throughput. 
+
 Architected a fault-tolerant storage array utilizing salvaged hardware, featuring a 1TB parity drive, two 500GB storage drives, and a 128GB SSD for high-speed caching. Established secure remote access via a Tailscale virtual private network and configured SMB shares, automating continuous household media backups using PhotoSync for over 200GB of active data. Deployed a Plex Media Server to stream hosted video content locally and remotely, establishing a scalable foundation for hosting future containerized applications.
 
 ## Transit Location Vending Machine Controller
