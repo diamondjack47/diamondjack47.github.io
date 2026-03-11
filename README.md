@@ -1,6 +1,6 @@
 # About me
 ### jacobhackov47@gmail.com | +91 8138090384
-<br/>
+
 # Projects
 ## Automated NAS & Media Streaming Server
 ### Tech Stack: Unraid, PC Hardware, Networking, SMB, Docker
