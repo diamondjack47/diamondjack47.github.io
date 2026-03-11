@@ -7,6 +7,104 @@ body {
   background-color: #1a1918;
   padding:50px;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#fff;
+  color:#c9d1d9;
   font-weight:400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color:#ffffff;
+  margin:0 0 20px;
+}
+
+h1, h2, h3 { 
+  line-height:1.1;
+}
+
+h2 {
+  color:#f0f6fc;
+}
+
+h3, h4, h5, h6 {
+  color:#e6edf3;
+}
+
+a {
+  color: #58a6ff; 
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  color: #79c0ff;
+  font-weight: bold;
+}
+
+code, pre {
+  font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
+  color: #e6edf3; 
+}
+
+pre {
+  padding: 8px 15px;
+  background: #161b22;
+  border-radius: 5px;
+  border: 1px solid #30363d; 
+  overflow-x: auto;
+}
+
+blockquote {
+  border-left: 2px solid #30363d; 
+  margin: 0;
+  padding: 0 0 0 20px;
+  font-style: italic;
+  color: #8b949e; 
+}
+
+th, td {
+  text-align: left;
+  padding: 5px 10px;
+  border-bottom: 1px solid #30363d; 
+}
+
+dt, th, strong {
+  color: #ffffff;
+}
+
+hr {
+  border: 0;
+  background: #30363d;
+  height: 1px;
+  margin: 0 0 20px;
+}
+
+kbd {
+  background-color: #161b22;
+  border: 1px solid #30363d;
+  border-bottom-color: #21262d;
+  box-shadow: inset 0 -1px 0 #21262d;
+  color: #c9d1d9;
+}
+
+ul.downloads {
+  background: #161b22;
+  border: 1px solid #30363d;
+}
+
+.downloads li {
+  border-right: 1px solid #30363d;
+}
+
+.downloads a {
+  color: #c9d1d9;
+}
+
+.downloads a:hover, .downloads a:focus {
+  color: #ffffff;
+}
+
+.downloads ul a:active {
+  background-color: #21262d;
+}
+
+.downloads a strong {
+  color: #ffffff;
 }
